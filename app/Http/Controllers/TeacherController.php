@@ -99,7 +99,6 @@ public function create(){
     {
 
         $teachers = Teacher::find( $id ) ;
-
         $teachers = Teacher::update([
             'first_name' => $request->first_name,
             'last_name' => $request->last_name,
@@ -110,7 +109,7 @@ public function create(){
         return redirect('/teachers');
 
 
-
+//obadah
 
 
 
